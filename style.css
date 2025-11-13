@@ -1,0 +1,67 @@
+html{
+    background-color: skyblue;
+}
+
+body{
+    background-color: powderblue;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    background-color: blue;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.item{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.item2{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-column: span 2;
+}
+
+.item3{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    grid-column: span 3;
+}
